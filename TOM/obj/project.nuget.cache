@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vJ58UyCD539daMPetzPRGc7rB4GxHEpO5vo8cDgN3dWGeVS7Fdb86l51NwE3eGFM3ojXHM8MS5fDy7VoZKpApQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\RiderProjects\\TOM.NET\\TOM\\TOM.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fable.remoting.dotnetclient\\3.28.0\\fable.remoting.dotnetclient.3.28.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fable.remoting.json\\2.21.0\\fable.remoting.json.2.21.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fable.remoting.msgpack\\1.18.0\\fable.remoting.msgpack.1.18.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

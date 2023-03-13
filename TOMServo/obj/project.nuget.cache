@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "6BjWnZyVCOkicKunbMTs7LY9gBZp+glMRa6y9V1sVoN1sBq5QQ34RsZCxQ7e7HLqgbatTs7osSGKi5/4u30dTA==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\RiderProjects\\TOM.NET\\TOMServo\\TOMServo.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fable.remoting.json\\2.21.0\\fable.remoting.json.2.21.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fable.remoting.msgpack\\1.18.0\\fable.remoting.msgpack.1.18.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fable.remoting.server\\5.32.0\\fable.remoting.server.5.32.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fable.remoting.suave\\4.32.0\\fable.remoting.suave.4.32.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\fsharp.core\\7.0.0\\fsharp.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.2.0\\microsoft.io.recyclablememorystream.2.2.0.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\jpkessel\\.nuget\\packages\\suave\\2.7.0-beta\\suave.2.7.0-beta.nupkg.sha512"
+  ],
+  "logs": []
+}

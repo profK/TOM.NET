@@ -1,0 +1,334 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Fable.Remoting.DotnetClient/3.28.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "6.0.0",
+          "Fable.Remoting.Json": "2.21.0",
+          "Fable.Remoting.MsgPack": "1.18.0"
+        },
+        "compile": {
+          "lib/net6.0/Fable.Remoting.DotnetClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Fable.Remoting.DotnetClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Fable.Remoting.Json/2.21.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.7.2",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Fable.Remoting.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Fable.Remoting.Json.dll": {}
+        }
+      },
+      "Fable.Remoting.MsgPack/1.18.0": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.7.2"
+        },
+        "compile": {
+          "lib/net6.0/Fable.Remoting.MsgPack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Fable.Remoting.MsgPack.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FSharp.Core/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fable.Remoting.DotnetClient/3.28.0": {
+      "sha512": "Gtxbmw4eziz2AioXrfdb5LpsQ8LepaHsVPDKTWO6k0RtsFVy6IF3Fmy7mpDqUB6pKCRrssa6ZaqrK/eIdymP5A==",
+      "type": "package",
+      "path": "fable.remoting.dotnetclient/3.28.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fable.remoting.dotnetclient.3.28.0.nupkg.sha512",
+        "fable.remoting.dotnetclient.nuspec",
+        "lib/net462/Fable.Remoting.DotnetClient.dll",
+        "lib/net462/Fable.Remoting.DotnetClient.xml",
+        "lib/net6.0/Fable.Remoting.DotnetClient.dll",
+        "lib/net6.0/Fable.Remoting.DotnetClient.xml",
+        "lib/netstandard2.0/Fable.Remoting.DotnetClient.dll",
+        "lib/netstandard2.0/Fable.Remoting.DotnetClient.xml"
+      ]
+    },
+    "Fable.Remoting.Json/2.21.0": {
+      "sha512": "QLgVKeYGn2oQwQCE+WWXfzDdPVhwLI+sSn7zzDdJ0XWrooyg9yl90T1c8dkCmps3kRmZxc3R0luT3LEXRz7RFQ==",
+      "type": "package",
+      "path": "fable.remoting.json/2.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fable.remoting.json.2.21.0.nupkg.sha512",
+        "fable.remoting.json.nuspec",
+        "lib/net462/Fable.Remoting.Json.dll",
+        "lib/net6.0/Fable.Remoting.Json.dll",
+        "lib/netstandard2.0/Fable.Remoting.Json.dll"
+      ]
+    },
+    "Fable.Remoting.MsgPack/1.18.0": {
+      "sha512": "eka+x1gSWGkf48/gM/A/Figomsn4Oaa2OWARz9sFvW77cx254fdVfwv17+hvmUDSMlsjVNNy610YtZYjT15WWA==",
+      "type": "package",
+      "path": "fable.remoting.msgpack/1.18.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fable.remoting.msgpack.1.18.0.nupkg.sha512",
+        "fable.remoting.msgpack.nuspec",
+        "fable/Fable.Remoting.MsgPack.fsproj",
+        "fable/Format.fs",
+        "fable/Read.fs",
+        "fable/TypeShape.fs",
+        "fable/TypeShapeUtils.fs",
+        "fable/Write.fs",
+        "lib/net462/Fable.Remoting.MsgPack.dll",
+        "lib/net462/Fable.Remoting.MsgPack.xml",
+        "lib/net6.0/Fable.Remoting.MsgPack.dll",
+        "lib/net6.0/Fable.Remoting.MsgPack.xml",
+        "lib/netcoreapp3.1/Fable.Remoting.MsgPack.dll",
+        "lib/netcoreapp3.1/Fable.Remoting.MsgPack.xml",
+        "lib/netstandard2.0/Fable.Remoting.MsgPack.dll",
+        "lib/netstandard2.0/Fable.Remoting.MsgPack.xml"
+      ]
+    },
+    "FSharp.Core/7.0.0": {
+      "sha512": "UcPaa9FW4civPrXL059dEa6Pk8ZMfllEf9RRcChv0reBLnM1WfcXXn7pW357FxGb+CUosq0W93TevJQ6z8G93g==",
+      "type": "package",
+      "path": "fsharp.core/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.7.0.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "FSharp.Core >= 7.0.0",
+      "Fable.Remoting.DotnetClient >= 3.28.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jpkessel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\projects\\RiderProjects\\TOM.NET\\TOM\\TOM.fsproj",
+      "projectName": "TOM",
+      "projectPath": "D:\\projects\\RiderProjects\\TOM.NET\\TOM\\TOM.fsproj",
+      "packagesPath": "C:\\Users\\jpkessel\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\RiderProjects\\TOM.NET\\TOM\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jpkessel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.102\\FSharp\\library-packs": {},
+        "C:\\Users\\jpkessel\\AppData\\Local\\Stride\\NugetDev": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packages.stride3d.net/nuget": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "FSharp.Core": {
+            "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[7.0.0, )",
+            "generatePathProperty": true
+          },
+          "Fable.Remoting.DotnetClient": {
+            "target": "Package",
+            "version": "[3.28.0, )",
+            "generatePathProperty": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

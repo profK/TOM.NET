@@ -1,0 +1,212 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TOMServo/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "7.0.0",
+          "Fable.Remoting.Server": "5.32.0",
+          "Fable.Remoting.Suave": "4.32.0",
+          "Suave": "2.7.0-beta"
+        },
+        "runtime": {
+          "TOMServo.dll": {}
+        }
+      },
+      "Fable.Remoting.Json/2.21.0": {
+        "dependencies": {
+          "FSharp.Core": "7.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Fable.Remoting.Json.dll": {
+            "assemblyVersion": "2.21.0.0",
+            "fileVersion": "2.21.0.0"
+          }
+        }
+      },
+      "Fable.Remoting.MsgPack/1.18.0": {
+        "dependencies": {
+          "FSharp.Core": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Fable.Remoting.MsgPack.dll": {
+            "assemblyVersion": "1.18.0.0",
+            "fileVersion": "1.18.0.0"
+          }
+        }
+      },
+      "Fable.Remoting.Server/5.32.0": {
+        "dependencies": {
+          "FSharp.Core": "7.0.0",
+          "Fable.Remoting.Json": "2.21.0",
+          "Fable.Remoting.MsgPack": "1.18.0",
+          "Microsoft.IO.RecyclableMemoryStream": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Fable.Remoting.Server.dll": {
+            "assemblyVersion": "5.32.0.0",
+            "fileVersion": "5.32.0.0"
+          }
+        }
+      },
+      "Fable.Remoting.Suave/4.32.0": {
+        "dependencies": {
+          "FSharp.Core": "7.0.0",
+          "Fable.Remoting.Server": "5.32.0",
+          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
+          "Suave": "2.7.0-beta"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Fable.Remoting.Suave.dll": {
+            "assemblyVersion": "4.32.0.0",
+            "fileVersion": "4.32.0.0"
+          }
+        }
+      },
+      "FSharp.Core/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.56703"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
+        "runtime": {
+          "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Suave/2.7.0-beta": {
+        "dependencies": {
+          "FSharp.Core": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Suave.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TOMServo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fable.Remoting.Json/2.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QLgVKeYGn2oQwQCE+WWXfzDdPVhwLI+sSn7zzDdJ0XWrooyg9yl90T1c8dkCmps3kRmZxc3R0luT3LEXRz7RFQ==",
+      "path": "fable.remoting.json/2.21.0",
+      "hashPath": "fable.remoting.json.2.21.0.nupkg.sha512"
+    },
+    "Fable.Remoting.MsgPack/1.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eka+x1gSWGkf48/gM/A/Figomsn4Oaa2OWARz9sFvW77cx254fdVfwv17+hvmUDSMlsjVNNy610YtZYjT15WWA==",
+      "path": "fable.remoting.msgpack/1.18.0",
+      "hashPath": "fable.remoting.msgpack.1.18.0.nupkg.sha512"
+    },
+    "Fable.Remoting.Server/5.32.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-28atNZwvxzzxdcMcIKrOckz7m68iFCmW8/ioTm+hSX188uRmSbJ5IRlg94c1XGaSOUHPY7HKEzZDUrwglyrB7w==",
+      "path": "fable.remoting.server/5.32.0",
+      "hashPath": "fable.remoting.server.5.32.0.nupkg.sha512"
+    },
+    "Fable.Remoting.Suave/4.32.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZE1JyoDAtXbTPG6xh9lhzLSTkrieKJ2+6x76x7F4yUN37sgaGqiOld+WBg0n+3ex5vuS5FSFQpy50nLGxFS4jw==",
+      "path": "fable.remoting.suave/4.32.0",
+      "hashPath": "fable.remoting.suave.4.32.0.nupkg.sha512"
+    },
+    "FSharp.Core/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcPaa9FW4civPrXL059dEa6Pk8ZMfllEf9RRcChv0reBLnM1WfcXXn7pW357FxGb+CUosq0W93TevJQ6z8G93g==",
+      "path": "fsharp.core/7.0.0",
+      "hashPath": "fsharp.core.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uyjY/cqomw1irT4L7lDeg4sJ36MsjHg3wKqpGrBAdzvZaxo85yMF+sAA9RIzTV92fDxuUzjqksMqA0+SNMkMgA==",
+      "path": "microsoft.io.recyclablememorystream/2.2.0",
+      "hashPath": "microsoft.io.recyclablememorystream.2.2.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Suave/2.7.0-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kR9cow7q/BKvHx/WEJmU40yrXda1wJl5eeVjn6uVTpHzqC72WyKJlRuhgL/eStkMNQKMLdmXddUqDAMGNxACbg==",
+      "path": "suave/2.7.0-beta",
+      "hashPath": "suave.2.7.0-beta.nupkg.sha512"
+    }
+  }
+}

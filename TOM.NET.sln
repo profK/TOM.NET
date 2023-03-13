@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TOMServo", "TOMServo\TOMServo.fsproj", "{E15322F6-D517-4E57-99C4-B647E10CC4F7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TOM", "TOM\TOM.fsproj", "{0203B5C0-C5E6-4D55-9382-3523193A5AD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E15322F6-D517-4E57-99C4-B647E10CC4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15322F6-D517-4E57-99C4-B647E10CC4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15322F6-D517-4E57-99C4-B647E10CC4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15322F6-D517-4E57-99C4-B647E10CC4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0203B5C0-C5E6-4D55-9382-3523193A5AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0203B5C0-C5E6-4D55-9382-3523193A5AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0203B5C0-C5E6-4D55-9382-3523193A5AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0203B5C0-C5E6-4D55-9382-3523193A5AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
